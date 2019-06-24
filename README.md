@@ -1,22 +1,21 @@
-# Keras implementation of our method `Dilute Pooling Network`
+# Keras implementation of `Dilute Pooling Network`
 
 ## Paper
 Please cite our papers if you find it useful for your research.
 
 ```
-
 ## Installation
 * Install `Keras 2.2.4`, `tensorflow 1.12.0`, `scipy`, `numpy` and `opencv3`.
-
+* Or use our prepared gpu env `dpnets.yaml` by `conda env create -f dpnets.yaml`
 * Clone this repo.
 ```
-git clone
+git clone https://github.com/snowzm/dilute-pooling
 ```
 
 ## Usage
 * Firstly, Run `generate_samples.py` to generate the meta data.
 * Then, Run `main.py`.
-* DPNets model is implemented in `model.py`.
+* Tip: DPNets model is implemented in `model.py`.
 
 
 ## Result
